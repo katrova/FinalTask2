@@ -1,5 +1,17 @@
 package com.company;
 
+/*
+ *
+ * Classname : ICompanyService
+ *
+ * Description : Interface
+ *
+ * @version 1.0 2020.06.23
+ *
+ * @author Vasylkivska Kateryna KNTEU
+ *
+ * */
+
 import java.util.List;
 
 public interface ICompanyService {

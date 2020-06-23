@@ -1,11 +1,23 @@
 package com.company;
 
+/*
+ *
+ * Classname : CompanyServiceImpl
+ *
+ * Description : Service witch implements interface ICompanyService
+ *
+ * @version 1.0 2020.06.23
+ *
+ * @author Vasylkivska Kateryna KNTEU
+ *
+ * */
+
 import java.util.List;
 
 public class CompanyServiceImpl implements ICompanyService {
     @Override
     public Company getTopLevelParent(Company child) {
-        return null;
+        return child;
     }
 
     @Override

@@ -1,5 +1,17 @@
 package com.company;
 
+/*
+ *
+ * Classname : Main
+ *
+ * Description : Main class
+ *
+ * @version 1.0 2020.06.23
+ *
+ * @author Vasylkivska Kateryna KNTEU
+ *
+ * */
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,14 +21,14 @@ public class Main {
 	CompanyServiceImpl service = new CompanyServiceImpl();
 
         List<Company> companies = new ArrayList<>();
-        Company chief = new Company(null, 2);
-        Company lawyer = new Company(chief, 4);
-        Company developer = new Company(chief, 6);
-        Company frontEnd = new Company(developer, 5);
-        Company backEnd = new Company(developer, 7);
-        Company design = new Company(frontEnd, 2);
-        Company devOps = new Company(backEnd, 5);
-        Company accounting = new Company(null, 4);
+        Company chief = new Company(null, 5);
+        Company lawyer = new Company(chief, 9);
+        Company developer = new Company(chief,15 );
+        Company frontEnd = new Company(developer, 24);
+        Company backEnd = new Company(developer, 25);
+        Company design = new Company(frontEnd, 4);
+        Company devOps = new Company(backEnd, 15);
+        Company accounting = new Company(null, 7);
 
         System.out.println(service.getTopLevelParent(chief));
         System.out.println(service.getTopLevelParent(lawyer));
