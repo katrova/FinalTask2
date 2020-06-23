@@ -6,7 +6,7 @@ package com.company;
  *
  * Description : Interface
  *
- * @version 1.0 2020.06.23
+ * @version 1.0 23.06.2020
  *
  * @author Vasylkivska Kateryna KNTEU
  *

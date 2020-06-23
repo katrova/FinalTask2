@@ -6,7 +6,7 @@ package com.company;
  *
  * Description : Service witch implements interface ICompanyService
  *
- * @version 1.0 2020.06.23
+ * @version 1.0 23.06.2020.
  *
  * @author Vasylkivska Kateryna KNTEU
  *
@@ -21,7 +21,8 @@ public class CompanyServiceImpl implements ICompanyService {
     }
 
     @Override
-    public long getEmployeeCountForCompanyAndChildren(Company company, List<Company> companies) {
+    public long getEmployeeCountForCompanyAndChildren(Company company,
+                                                      List<Company> companies) {
         return 0;
     }
 }
